@@ -14,11 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: DSC 10
-description: DSC 10, Spring 2022 at UC San Diego
+description: DSC 10, Summer 2022 at UC San Diego
 tagline: Principles of Data Science
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://dsc10.com' # the base hostname & protocol for your site, e.g. http://example.com
-author: Janine Tiefenbruck
+author: Sam Lau
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
 # Theme settings
@@ -31,11 +31,11 @@ aux_links:
   Course Notes:
     - 'https://notes.dsc10.com/'
   Campuswire:
-    - 'https://campuswire.com/p/GF871D922'
+    - ''
   DataHub:
     - 'https://datahub.ucsd.edu'
   Gradescope:
-    - 'https://www.gradescope.com/courses/381321'
+    - ''
 footer_content:
 
 # Collections for website data
