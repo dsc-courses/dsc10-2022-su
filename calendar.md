@@ -19,6 +19,6 @@ SDSC---[see Campuswire][campuswire].
 To join remote office hours (<span style="color:orange">shown in
 orange</span>), click the button below.
 
-[Zoom Link](https://ucsd.zoom.us/j/93291940198?pwd=aWJvWmNwRFJpalF1dXh0dTBDSUo5UT09){: .btn .btn-blue }
+[Zoom Link](https://ucsd.zoom.us/j/95505970197?pwd=ak1JNWFvZi8vajV0OHRaVW5EcFpYUT09){: .btn .btn-blue }
 
 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=MmNrZXA1ZHUxNGEwN3RtZzMwdTNlYjY1ZTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%233F51B5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
