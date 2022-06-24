@@ -2,295 +2,295 @@
     "doc": "Calendar",
     "title": "Calendar 📆",
     "content": "In-person office hours (shown in purple) are held on the second floor of the east wing of the San Diego Supercomputer Center (map). Enter SDSC from the main entrance on Hopkins Drive, take the elevator up to the second floor, turn left at the kitchen, and meet in the common area. You may need a code to access SDSC - see Campuswire. To join remote office hours (shown in orange), click the button below. Zoom Link . ",
-    "url": "http://localhost:4000/calendar/#calendar-",
+    "url": "https://dsc10.com/calendar/#calendar-",
     "relUrl": "/calendar/#calendar-"
   },"1": {
     "doc": "Calendar",
     "title": "Calendar",
     "content": " ",
-    "url": "http://localhost:4000/calendar/",
+    "url": "https://dsc10.com/calendar/",
     "relUrl": "/calendar/"
   },"2": {
     "doc": "Debugging",
     "title": "Debugging 🐞",
     "content": " ",
-    "url": "http://localhost:4000/debugging/#debugging-",
+    "url": "https://dsc10.com/debugging/#debugging-",
     "relUrl": "/debugging/#debugging-"
   },"3": {
     "doc": "Debugging",
     "title": "Table of contents",
     "content": ". | Cells and the Autograder . | Why does running a particular cell cause my kernel to die? | How do I quickly run all the cells in a notebook? | Why does grader.check_all() fail, if all previous tests passed? | Why does a notebook test fail now, when it passed before and I didn’t change my code? | Why did a Gradescope test fail, when all the notebook’s tests passed? | Why do I get an error saying grader is not defined? | I’m positive I have the right answer, but the test fails. Is there a mistake in the test? | . | Specific Errors . | isinstance(..., numbers.Integral) | ... object is not callable | No module named 'babypandas' | Other errors | . | DataHub . | When I click an assignment link on the course website, I see a black screen with a bunch of text. What should I do? | Why can’t I log in to Datahub? | How can Extension Students access Datahub? | My notebook won’t load. Is Datahub down? | . | . ",
-    "url": "http://localhost:4000/debugging/#table-of-contents",
+    "url": "https://dsc10.com/debugging/#table-of-contents",
     "relUrl": "/debugging/#table-of-contents"
   },"4": {
     "doc": "Debugging",
     "title": "Cells and the Autograder",
     "content": "Why does running a particular cell cause my kernel to die? . If one particular cell seems to cause your kernel to die, your code is probably incorrect in a way that is causing the computer to use more memory than it has available. For instance: your code is trying to create a gigantic array. To prevent from crashing the entire server, the kernel will “die”. This is an indication that there is a mistake in your code that you need to fix. How do I quickly run all the cells in a notebook? . Go to the Cell menu in the top toolbar, then “Run All.” You can also select a certain cell and run all cells before this point, or run all cells after this point. You should run all the cells in your notebook before submitting to confirm that you pass all the tests. Why does grader.check_all() fail, if all previous tests passed? . This can happen if you “overwrite” a variable that is used in a question. For instance, if Question 1 asks you to store your answer in a variable named foo, and later on in the notebook you change the value of foo, you’ll see the test after Question 1 pass, but the test at the end of the notebook fail. Make sure to rename later instances of that variable so you’re not overwriting it. Why does a notebook test fail now, when it passed before and I didn’t change my code? . You probably ran your notebook out of order. Re-run previous cells. Why did a Gradescope test fail, when all the notebook’s tests passed? . This can happen if you’re running your notebook’s cells out-of-order. The autograder runs your notebook top-to-bottom. If you’re defining a variable at the bottom of your notebook and using it at the top, the Gradescope autograder will fail because it doesn’t recognize the variable when it encounters it. This is why we recommend running Kernel -&gt; Restart and Run All: it “forgets” all of the variables and runs the notebook from top-to-bottom, just like the Gradescope autograder will. This will highlight any issues. Find the first cell that raises an error. Make sure that all of the variables used in that cell have been defined above that cell, and not below. Why do I get an error saying grader is not defined? . If it has been a while since you’ve worked on an assignment, the kernel will shut itself down to preserve memory. When this happens, all of your variables are forgotten, including the grader. That’s OK: you’ll just need to re-run all of the cells. The easiest way to do this is by using Kernel -&gt; Restart and Run All. I’m positive I have the right answer, but the test fails. Is there a mistake in the test? . While you might see the correct answer displayed as the result of the cell, chances are it isn’t being stored in the answer variable. Make sure you are assigning the result to the answer variable. Make sure there are no typos in the variable name. ",
-    "url": "http://localhost:4000/debugging/#cells-and-the-autograder",
+    "url": "https://dsc10.com/debugging/#cells-and-the-autograder",
     "relUrl": "/debugging/#cells-and-the-autograder"
   },"5": {
     "doc": "Debugging",
     "title": "Specific Errors",
     "content": "A general rule of thumb when debugging is to look at the very last line of an error message. That’s usually the most informative part of the message, and will often tell you directly what’s wrong. isinstance(..., numbers.Integral) . This error is telling you that the answer should be an integer, but your answer is not. This often happens when you’ve done some intermediate work towards the answer and saved an intermediate result in the answer variable instead of the final result. Sometimes instead of isinstance(..., numbers.Integral), you’ll see something like isinstance(..., bpd.DataFrame). This is saying that the answer should be a DataFrame, but yours was something else. The rest of the above still applies. Check the type of your answer variable with type(). Is it what you expected? ... object is not callable . This often happens when you use a default keyword (like str or list) as a variable name, for instance list = [1, 2, 3]. These errors can be tricky because they don’t error on their own, but cause problems when we try to use (for example) the name list later on in the notebook (e.g. to convert something to a list). To fix the issue, identify any such lines of code, change your variable names to be something else, and restart your notebook. No module named 'babypandas' . This can happen if you click the name of a course other than DSC 10 when logging into DataHub. Here’s how to “switch” your DataHub to DSC 10 mode: . | Click “Control Panel” in the top right | Click “Services”, then click “manual-resetter” | Click “Reset” (if a pop-up box appears, click okay) | Log back into DataHub and it should allow you to select a course again – select DSC 10 | . Other errors . It can be difficult to decipher the meaning of error messages in Python. Here is a useful guide. You can also ask in office hours, or on Campuswire, provided you are not posting your code publicly or otherwise giving away the answer in your post. Understanding cryptic error messages is a skill that comes with experience. ",
-    "url": "http://localhost:4000/debugging/#specific-errors",
+    "url": "https://dsc10.com/debugging/#specific-errors",
     "relUrl": "/debugging/#specific-errors"
   },"6": {
     "doc": "Debugging",
     "title": "DataHub",
     "content": "When I click an assignment link on the course website, I see a black screen with a bunch of text. What should I do? . This is usually what’s called a “merge conflict”, which means that DataHub wasn’t able to combine the versions of the assignments we released with the versions you worked on. This should only happen in rare circumstances. There’s a fix that prevents you from losing any of your work: . | Go directly to DataHub (datahub.ucsd.edu). After opening DataHub, instead of clicking dsc10-2022-wi, click the box next to it, then click rename, then rename it to something else (like dsc10-2022-wi-old). | Click the assignment link on the course website again. Now you’ll have a new dsc10-2022-wi folder in your DataHub, but the work in it will be blank. When you click an assignment link on the course website it will always bring you to this folder, but all of your previous work will still be in the old folder. If you’d prefer, you can manually transfer your work to the new folder, but that’s probably not necessary. | . Why can’t I log in to Datahub? . Log out of all Google accounts or open an incognito window. When prompted, enter your full UCSD email, username@ucsd.edu, as your credentials. How can Extension Students access Datahub? . Extension students may receive separate accounts for the purpose of accessing Datahub. To look up your account information and reset any additional account passwords, visit https://sdacs.ucsd.edu/~icc/index.php and enter your AX account in the username field and your UID in the Student ID field (e.g. “axNNNN”, “cs120sp20aa”, etc.) . My notebook won’t load. Is Datahub down? . Sometimes Datahub does have availability issues. Usually it is back up and running again within an hour. In other instances, there are some things you can do to get the notebook running again: Make sure your internet connection is working. If you can, restart your server by clicking the button at the top right labeled “Control Panel”, then select “Stop My Server”, followed by “Start My Server”. If that doesn’t work, try restarting your computer and using a different browser. Whenever you resume working on a notebook, run all cells you’ve previously completed. If your problem persists after trying all these steps, please notify us. ",
-    "url": "http://localhost:4000/debugging/#datahub",
+    "url": "https://dsc10.com/debugging/#datahub",
     "relUrl": "/debugging/#datahub"
   },"7": {
     "doc": "Debugging",
     "title": "Debugging",
     "content": " ",
-    "url": "http://localhost:4000/debugging/",
+    "url": "https://dsc10.com/debugging/",
     "relUrl": "/debugging/"
   },"8": {
     "doc": "Home",
     "title": "Principles of Data Science 📊",
     "content": "DSC 10, Summer 2022 at UC San Diego . 👋 Welcome! Please start by reading this website, especially the syllabus and the schedule below. Sam Lau he/him . lau@ucsd.edu . Zoom Link for Remote Office Hours Podcast Recordings . Week 1 – Association and Causality, Python Basics . Mar 28 LEC 1 Introduction . CIT 1.2-1.3 . Mar 30 LEC 2 Association and Causality . CIT 2 . Apr 1 LEC 3 Expressions and Data Types . Notes 1-6 . Apr 2 SUR Beginning of Quarter Survey (due 11:59pm) . Lab 1 Expressions and Data Types (due 11:59pm) . Week 2 – Arrays and DataFrames . Apr 4 LEC 4 Arrays and DataFrames . Notes 7-8 . DIS 1 Python Basics and Causality . Apr 5 HW 1 Causality and Basic Python (due 11:59pm) . Apr 6 LEC 5 Accessing, Sorting, and Querying . Notes 9-10 . Apr 8 LEC 6 More Queries and GroupBy . Notes 10-11 . Apr 9 Lab 2 Arrays and DataFrames (due 11:59pm) . Week 3 – Data Visualization, Functions . Apr 11 LEC 7 Data Visualization . Notes 14-17 . DIS 2 Arrays and DataFrames . Apr 12 HW 2 Arrays and DataFrames (due 11:59pm) . Apr 13 LEC 8 Histograms and Overlaid Plots . Notes 14-17 . Apr 15 LEC 9 Functions and Apply . Note 12 . Apr 16 Lab 3 Data Visualization and Python Functions (due 11:59pm) . Week 4 – More DataFrame Operations, Probability . Apr 18 LEC 10 Grouping with Subgroups, Merge . Note 11.4, 13 . DIS 3 Plotting and Functions . Apr 19 HW 3 Data Visualization and Python Functions (due 11:59pm) . Apr 20 LEC 11 Booleans and Conditionals, Iteration . CIT 9.1-9.2 . Apr 22 LEC 12 Probability . Note 18, CIT 9.5 . Apr 23 Lab 4 DataFrames, Control Flow, and Probability (due 11:59pm) . Week 5 – Simulation, Sampling, Midterm Exam . Apr 25 LEC 13 Simulation . Note 18 . DIS 4 Control Flow and Probability, Supplementary Video . Apr 26 HW 4 DataFrames, Control Flow, and Probability (due 11:59pm) . Apr 27 LEC 14 Distributions and Sampling . Notes 19-20 . Review Midterm Review, Solutions, Zoom Recording (sign in w/ SSO), YouTube . Apr 29 Exam Midterm Exam, Solutions . Week 6 – Hypothesis Testing and Permutation Testing . May 2 LEC 15 Hypothesis Testing . Note 21 . DIS 5 Midterm Solutions . May 4 LEC 16 Hypothesis Testing, Continued . Note 21, CIT 11.2 . PROJ Midterm Project (due 11:59pm) (find a partner) (pair programming) . May 6 LEC 17 Permutation Testing . Note 22, CIT 12 . May 7 Lab 5 Simulation, Sampling, and Hypothesis Testing (due 11:59pm) . Week 7 – Bootstrapping, Confidence Intervals . May 9 LEC 18 Causality, Bootstrapping . Note 23, CIT 12.2 . DIS 6 Hypothesis, Permutation Testing . May 10 HW 5 Simulation, Sampling, and Hypothesis Testing (due 11:59pm) . May 11 LEC 19 Percentiles and Confidence Intervals . Notes 24-25 . May 13 LEC 20 Confidence Intervals, Center and Spread . CIT 14.1-14.2 . May 14 Lab 6 Resampling and the Bootstrap (due 11:59pm) . Week 8 – Normal Curve, Central Limit Theorem . May 16 LEC 21 Normal Curve . CIT 14.3-14.4 . DIS 7 Bootstrap, Confidence Intervals . May 17 HW 6 Permutation Testing, Percentiles, and Bootstrapping (due 11:59pm) . May 18 LEC 22 Central Limit Theorem 🎥 Watch Recording . CIT 14.4-14.5 . May 20 LEC 23 Experiment Design . CIT 14.6 . May 21 Lab 7 Center, Spread, and the Normal Distribution (due 11:59pm) . Week 9 – Regression . May 23 LEC 24 Prediction and Correlation . CIT 15.1-15.2 . DIS 8 Normal Curve, and CLT . May 24 HW 7 Confidence Intervals, Normal Distributions, CLT (due 11:59pm) . May 25 LEC 25 Regression and Least Squares . CIT 15.2-15.3 . May 27 LEC 26 Residuals and Inference 🎥 Watch Recording . CIT 15.5-15.6 . May 28 Lab 8 Regression (due 11:59pm) . Week 10 – Review, Final Exam . May 30 Memorial Day Holiday (No Lecture) . Jun 1 LEC 27 Review, Solutions . PROJ Final Project (due 11:59pm) (find a partner) (pair programming) . Jun 2 REVIEW Final Review 🎥 Watch Recording . Jun 3 LEC 28 Review, Conclusion . Jun 4 SUR End of Quarter Survey (due 2:59pm) + CAPEs (due 8:00am) + TA Evals (due 6/6) . Exam Final Exam (3-6pm), Version A Solutions, Version B Solutions . ",
-    "url": "http://localhost:4000/#principles-of-data-science-",
+    "url": "https://dsc10.com/#principles-of-data-science-",
     "relUrl": "/#principles-of-data-science-"
   },"9": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
-    "url": "http://localhost:4000/",
+    "url": "https://dsc10.com/",
     "relUrl": "/"
   },"10": {
     "doc": "Pair Programming",
     "title": "Pair Programming Guidelines 👯",
     "content": " ",
-    "url": "http://localhost:4000/pair-programming/#pair-programming-guidelines-",
+    "url": "https://dsc10.com/pair-programming/#pair-programming-guidelines-",
     "relUrl": "/pair-programming/#pair-programming-guidelines-"
   },"11": {
     "doc": "Pair Programming",
     "title": "Table of contents",
     "content": ". | What is “Pair Programming”? | Pair Programming and Academic Integrity (“The Rules”) | Choosing a Partner | Dealing with Differences | How Pair Programming Affects Your Grade | When In Doubt, Seek Clarification | . ",
-    "url": "http://localhost:4000/pair-programming/#table-of-contents",
+    "url": "https://dsc10.com/pair-programming/#table-of-contents",
     "relUrl": "/pair-programming/#table-of-contents"
   },"12": {
     "doc": "Pair Programming",
     "title": "What is “Pair Programming”?",
     "content": "When working on projects (and projects only), you may work alone or with one partner, using the “Pair Programming” approach. In pair programming, two programmers share one computer. One student is the “driver,” who controls the keyboard and mouse. The other is the “navigator,” who observes, asks questions, suggests solutions, and thinks about slightly longer-term strategies. The two programmers switch roles about every 20 minutes. When working remotely, pair programming involves being on a Zoom call together at the same time. The driver should share their screen, and should still rotate roughly every 20 minutes. When rotating, you may transfer the work that you did together from the old driver’s notebook to the new driver’s notebook by copying the completed questions between the notebooks. Working in pairs should make you much better at programming than working alone would. The resulting work of pair programming nearly always outshines that of the solitary programmer, with pairs producing better code in less time. [Pair programming] makes learning programming faster and more fun. I have had previous experience working both alone and with partners. I definitely agree that working with partners is more profitable.” – student . To learn the “do’s and don’ts” of pair programming and to see pairs in action, view this entertaining video about pair programming from North Carolina State University: An Introduction to Pair Programming Version 2. However, the most important rule of pair programming is that you must work together, on the same part of the assignment at the same time. Splitting up the work on an assignment is considered cheating. ",
-    "url": "http://localhost:4000/pair-programming/#what-is-pair-programming",
+    "url": "https://dsc10.com/pair-programming/#what-is-pair-programming",
     "relUrl": "/pair-programming/#what-is-pair-programming"
   },"13": {
     "doc": "Pair Programming",
     "title": "Pair Programming and Academic Integrity (“The Rules”)",
     "content": ". | You must always be working together with your partner when developing code, either in-person or while screen-sharing in a Zoom call. You may not do any coding without your partner present. | You may not use or even look at any code you have previously developed without your partner. This means, if you choose to split with a partner, you must both start over from scratch with your new partner. Completely throw your old code away. | You and your partner must both be active contributors to the code. This mean, you must both be engaged in the development (talking, typing, suggesting, etc) and you must switch roles regularly. | You may not split the code and develop it separately, even if you are sitting right next to each other or are on a Zoom call together. You must collaboratively develop a single solution. | . ",
-    "url": "http://localhost:4000/pair-programming/#pair-programming-and-academic-integrity-the-rules",
+    "url": "https://dsc10.com/pair-programming/#pair-programming-and-academic-integrity-the-rules",
     "relUrl": "/pair-programming/#pair-programming-and-academic-integrity-the-rules"
   },"14": {
     "doc": "Pair Programming",
     "title": "Choosing a Partner",
     "content": "You can choose your own partner. You will need to arrange times to meet outside of class. We expect everyone to be flexible and professional in arranging those times as necessary; if your schedule is highly constrained, explore possible meeting times with your prospective partner before you commit to the partnership. You should try to pick a partner whose experience and skill level with programming is similar to your own. This may not always be possible and it is sometimes hard to compare skill levels, but students tell us (and other data supports) that pairs are most productive when the partners start at about the same level. Still, people often pair up with another whose skills are different. This happens more often than not, as no two people have an identical skill set. The differences may be great or small, but this is exactly like most real-world working situations. Part of accomplishing a task is to get the most out of each member and make each member stronger and more productive on subsequent tasks. Students bring different strengths to the process, regardless of how much experience they have had with programming. Both experienced and inexperienced students will need to draw on their reasoning and problem solving skills. A more experienced partner may sometimes feel frustrated or slowed down by a less experienced partner, but the experienced partner still benefits from the teamwork in many ways. The less experienced partner’s requests for clarification often uncover flaws in an approach or solution; the exercise of providing a clear explanation solidifies and deepens the explainer’s own understanding and the teamwork and communication skills they gain have great value in both the academic realm and the job market. “My partner had never coded anything before so I was able to teach him a little bit about how it worked. The teaching bit helped me a lot withunderstanding the labs and passing the exams.” – student . The less experienced partner may feel that questions hold the other partner back or that there is no benefit to participating actively, but pair programming studies show that paired work is consistently better than work the stronger partner does alone. It is each partner’s job to understand the whole task; that means asking questions when necessary and answering them when possible. It may be instructive to read a selection of students’ partner evaluation comments from similar courses that have used pair programming; they give a picture of what good partnerships are like (and a few disasters, too). Read Pair Programming Evaluations from the University of California, Irvine Bren School of Information and Computer Sciences. ",
-    "url": "http://localhost:4000/pair-programming/#choosing-a-partner",
+    "url": "https://dsc10.com/pair-programming/#choosing-a-partner",
     "relUrl": "/pair-programming/#choosing-a-partner"
   },"15": {
     "doc": "Pair Programming",
     "title": "Dealing with Differences",
     "content": "If you believe your partner is not participating appropriately in pair programming (e.g., they do not keep in touch, do not come prepared to work on the assignment, or do not seem to be engaged in the process) please first address your concerns to your partner, and try to agree on what should be done to make the pair programming experience work well for both of you. If that approach is not successful, explain the issues to your teaching assistant, who will work with you and your partner to improve the situation. If your differences cannot be resolved, or if your partner stops participating, you should mutually agree to separate for the rest of the assignment. You may complete the assignment on your own or with a new partner, but you must start over from scratch, as described above. You should never simply abandon your partner without coming to a mutual agreement that this is the best course of action. To encourage each student to pull their weight and be a good partner, you are free to change partners at any time throughout the quarter if you like. ",
-    "url": "http://localhost:4000/pair-programming/#dealing-with-differences",
+    "url": "https://dsc10.com/pair-programming/#dealing-with-differences",
     "relUrl": "/pair-programming/#dealing-with-differences"
   },"16": {
     "doc": "Pair Programming",
     "title": "How Pair Programming Affects Your Grade",
     "content": "You and your partner will receive the same score on your code. Last quarter in DSC 10, grade data showed that students who worked together got statistically significantly higher project grades than students who worked alone. ",
-    "url": "http://localhost:4000/pair-programming/#how-pair-programming-affects-your-grade",
+    "url": "https://dsc10.com/pair-programming/#how-pair-programming-affects-your-grade",
     "relUrl": "/pair-programming/#how-pair-programming-affects-your-grade"
   },"17": {
     "doc": "Pair Programming",
     "title": "When In Doubt, Seek Clarification",
     "content": "Pair programming is shown to help, not hinder, your successful completion of the introductory course. It is important that you understand the processes and expectations up front so you can gain the most benefit. If you are unsure of any of the aspects of pair programming and how it is implemented in the course, see your instructor right away. ",
-    "url": "http://localhost:4000/pair-programming/#when-in-doubt-seek-clarification",
+    "url": "https://dsc10.com/pair-programming/#when-in-doubt-seek-clarification",
     "relUrl": "/pair-programming/#when-in-doubt-seek-clarification"
   },"18": {
     "doc": "Pair Programming",
     "title": "Pair Programming",
     "content": " ",
-    "url": "http://localhost:4000/pair-programming/",
+    "url": "https://dsc10.com/pair-programming/",
     "relUrl": "/pair-programming/"
   },"19": {
     "doc": "Resources",
     "title": "Resources 📚",
     "content": " ",
-    "url": "http://localhost:4000/resources/#resources-",
+    "url": "https://dsc10.com/resources/#resources-",
     "relUrl": "/resources/#resources-"
   },"20": {
     "doc": "Resources",
     "title": "Table of contents",
     "content": ". | Readings and Reference Sheets | Python Programming Tutorials, Resources, and Exercises | Supplemental Videos . | Lecture-Specific Videos | Other | . | Probability-Specific Resources | Practice Exams | UC San Diego Links | Other | . ",
-    "url": "http://localhost:4000/resources/#table-of-contents",
+    "url": "https://dsc10.com/resources/#table-of-contents",
     "relUrl": "/resources/#table-of-contents"
   },"21": {
     "doc": "Resources",
     "title": "Readings and Reference Sheets",
     "content": ". | Course Notes | Supplementary Textbook (Computational and Inferential Thinking) | DSC 10 Reference Sheet (handy summary) | babypandas Documentation | . ",
-    "url": "http://localhost:4000/resources/#readings-and-reference-sheets",
+    "url": "https://dsc10.com/resources/#readings-and-reference-sheets",
     "relUrl": "/resources/#readings-and-reference-sheets"
   },"22": {
     "doc": "Resources",
     "title": "Python Programming Tutorials, Resources, and Exercises",
     "content": ". | PythonTutor, a Python visualization tool . | PandasTutor, a DataFrame visualization tool | . | Software Carpentry | Code Academy | Coding Bat | Introduction to Computational Thinking with Data | Pair Programming Guidelines | . ",
-    "url": "http://localhost:4000/resources/#python-programming-tutorials-resources-and-exercises",
+    "url": "https://dsc10.com/resources/#python-programming-tutorials-resources-and-exercises",
     "relUrl": "/resources/#python-programming-tutorials-resources-and-exercises"
   },"23": {
     "doc": "Resources",
     "title": "Supplemental Videos",
     "content": "Lecture-Specific Videos . These are some videos that were meant to supplement a previous iteration of the course. They cover information that we’ll also cover this quarter. | DataFrames (Lecture 4) | Grouping (Lecture 6) | Bar Charts (Lecture 7) | Example: days_between (Lecture 11/12) | . Other . | Navigating DataHub and Jupyter Notebooks | For Loops (and when not to use them) | . ",
-    "url": "http://localhost:4000/resources/#supplemental-videos",
+    "url": "https://dsc10.com/resources/#supplemental-videos",
     "relUrl": "/resources/#supplemental-videos"
   },"24": {
     "doc": "Resources",
     "title": "Probability-Specific Resources",
     "content": ". | Note 18 in the course notes | Computational and Inferential Thinking, Chapter 9.5 | Theory Meets Data, Chapters 1 and 2. | Khan Academy’s unit on Probability | . ",
-    "url": "http://localhost:4000/resources/#probability-specific-resources",
+    "url": "https://dsc10.com/resources/#probability-specific-resources",
     "relUrl": "/resources/#probability-specific-resources"
   },"25": {
     "doc": "Resources",
     "title": "Practice Exams",
     "content": "Below we’ve linked PDF versions of the exams from two previous offerings of the course. Note that these were given remotely, whereas we will have an in-person, on-paper exam. | Quarter | Instructor(s) | Midterm | Final | Notes | . | Fall 2021 | Suraj Rampure and Janine Tiefebruck | exam, solutions | exam, solutions |   | . | Winter 2021 | Janine Tiefenbruck | exam, solutions | exam, solutions | - The Winter 2021 midterm was 75 minutes long, while ours will be 50 minutes long. Also, our exams will not have any open-ended questions. - Video walkthrough of Question 10.2-10.3 on the Midterm | . ",
-    "url": "http://localhost:4000/resources/#practice-exams",
+    "url": "https://dsc10.com/resources/#practice-exams",
     "relUrl": "/resources/#practice-exams"
   },"26": {
     "doc": "Resources",
     "title": "UC San Diego Links",
     "content": ". | Data Science Undergraduate Program | DSC 10 Waitlist and Enrollment | Data Science Advising | Library Guide to Data and Statistics | Academic Integrity Homepage | Counseling and Psychological Services (CAPS) | . ",
-    "url": "http://localhost:4000/resources/#uc-san-diego-links",
+    "url": "https://dsc10.com/resources/#uc-san-diego-links",
     "relUrl": "/resources/#uc-san-diego-links"
   },"27": {
     "doc": "Resources",
     "title": "Other",
     "content": ". | Places to find datasets | Permutation Testing Visualization | . ",
-    "url": "http://localhost:4000/resources/#other-1",
+    "url": "https://dsc10.com/resources/#other-1",
     "relUrl": "/resources/#other-1"
   },"28": {
     "doc": "Resources",
     "title": "Resources",
     "content": " ",
-    "url": "http://localhost:4000/resources/",
+    "url": "https://dsc10.com/resources/",
     "relUrl": "/resources/"
   },"29": {
     "doc": "Staff",
     "title": "Staff 🧑‍🏫",
     "content": " ",
-    "url": "http://localhost:4000/staff/#staff-",
+    "url": "https://dsc10.com/staff/#staff-",
     "relUrl": "/staff/#staff-"
   },"30": {
     "doc": "Staff",
     "title": "Instructor",
     "content": "Sam Lau he/him . lau@ucsd.edu . I’m a PhD student at UC San Diego in Cog Sci, where I design new tools for teaching data science. In my natural habitat, I’m watching “Carnitas are Easy, Inexpensive, and Delicious | Kenji’s Cooking Show” at Camellia Road with a taro milk tea. My top five SD bites are: Yokohama Yakitori Koubou, Tacos El Gordo, Woomiok, EE NAMI, Wayfarer Bread, Goi Cuon, Regent’s Pizzeria oops that’s seven. ",
-    "url": "http://localhost:4000/staff/#instructor",
+    "url": "https://dsc10.com/staff/#instructor",
     "relUrl": "/staff/#instructor"
   },"31": {
     "doc": "Staff",
     "title": "Course Staff",
     "content": "Shivani Bhakta she/her . TA . s9bhakta@ucsd.edu . Hi all! I am a second-year master’s student in the ECE department with a focus on Intelligent Systems, Robotics, and Control. I graduated from UCSD with B.S. in Electrical Engineering (Machine Learning) in 2020 (Yes, I barely got my graduation this year). I have been teaching for 4+ years (Tutored in High School, Undergrad, and now TAing as a Grad student). I really enjoy teaching and getting to know students. Outside of school, I enjoy rollerskating, hiking, reading, and writing. Eric Chen he/him . Tutor . eyc004@ucsd.edu . Hello everyone! My name is Eric and I’m a rising second-year Data Science major from Orange County. When I’m not focused on school, I really like watching food-related videos and listening to K-Pop (been listening to a lot of ENHYPEN). This will be my second time tutoring, so I am still kind of new to it, but I am excited to be a DSC 10 tutor again. I can’t wait to meet you all and I hope we will be able to learn a lot from each other! . Oren Ciolli he/him . Tutor . ociolli@ucsd.edu . Hi everyone! I’m Oren, a third year student double majoring in Data Science and Math-Econ. I’m originally from San Jose, California, and in my spare time I enjoy playing basketball, cooking, and exploring the city with my friends. When I took DSC 10, tutors and TA’s helped me to understand concepts that I never thought I could, and I’m super excited to have the opportunity to offer that same help to you! Looking forward to working with you all :) . Tiffany Yu she/her . Tutor . z5yu@ucsd.edu . Hi guys! My name is Tiffany and I am a second-year Data Science student from Warren College. My hometown is Beijing, China. Besides studying, I love dancing and playing the piano. I do k-pop dance covers during my spare time. This is my second time tutoring DSC10 and I am super excited to pass my passion to all of you. Feel free to chat with me about anything related to data science. Can’t wait to meet y’all on campus! . ",
-    "url": "http://localhost:4000/staff/#course-staff",
+    "url": "https://dsc10.com/staff/#course-staff",
     "relUrl": "/staff/#course-staff"
   },"32": {
     "doc": "Staff",
     "title": "Staff",
     "content": " ",
-    "url": "http://localhost:4000/staff/",
+    "url": "https://dsc10.com/staff/",
     "relUrl": "/staff/"
   },"33": {
     "doc": "Syllabus",
     "title": "Syllabus 📖",
     "content": " ",
-    "url": "http://localhost:4000/syllabus/#syllabus-",
+    "url": "https://dsc10.com/syllabus/#syllabus-",
     "relUrl": "/syllabus/#syllabus-"
   },"34": {
     "doc": "Syllabus",
     "title": "Table of contents",
     "content": ". | About 🧐 | Course Meetings 👨‍🏫 . | Lecture | Discussion | Office Hours | . | Getting Started 🚦 . | Technology | Forms | . | Communication 💬 | Readings 📕 | Assignments 🧪 . | Lab Assignments | Homework Assignments | Projects | Deadlines and Slip Days | Submission Errors | . | Exams 📝 | Weekly Schedule 📆 | Grades 💯 . | Regrade Requests | Letter Grades and Incompletes | . | Collaboration Policy and Academic Integrity 🤝 . | Why is academic integrity important? | What counts as cheating? | How can I be sure that my actions are NOT considered cheating? | . | Support 🤗 . | Accomodations | Diversity and Inclusion | . | Waitlist FAQs 🙋 | Acknowledgements 🙏 | . ",
-    "url": "http://localhost:4000/syllabus/#table-of-contents",
+    "url": "https://dsc10.com/syllabus/#table-of-contents",
     "relUrl": "/syllabus/#table-of-contents"
   },"35": {
     "doc": "Syllabus",
     "title": "About 🧐",
     "content": "Welcome to DSC 10 at UC San Diego! This course aims to teach you how to draw conclusions about data. We will learn how to explore data and make predictions using data. Programming is a useful tool to help us analyze large data sets, and so we will learn how to program in Python towards this goal. We will learn some of the core techniques of data science, and we will practice applying them to real data sets from a variety of different disciplines. Prerequisites: None. This course is an introduction to data science with no prior background assumed beyond high school algebra. If you are not planning on entering the DSC major/minor and have already taken a programming class and a statistics class, you may wish to take a more advanced course. If you are a DSC major/minor, DSC 10 is absolutely required, as later courses heavily reference its specific content. ",
-    "url": "http://localhost:4000/syllabus/#about-",
+    "url": "https://dsc10.com/syllabus/#about-",
     "relUrl": "/syllabus/#about-"
   },"36": {
     "doc": "Syllabus",
     "title": "Course Meetings 👨‍🏫",
     "content": "Lecture . There are two lecture sections: . | A00: MWF 10-10:50am (Center 109) | B00: MWF 11-11:50am (Center 109) | . Discussion . There are two discussion sections: . | A01: Monday 6-6:50pm (Center 216) | B01: Monday 7-7:50pm (Center 216) | . Discussion section focuses on solving concrete problems using the techniques introduced in lecture, and is excellent preparation for the week’s assignments, as well as exams. We expect that students in this class will have a wide range of backgrounds and relevant experience. If you are new to programming, you will especially benefit from taking advantage of the opportunity to attend discussion section and review the material from lecture. All lecture and discussion sections will be recorded and posted. Recordings will be available online shortly afterwards. Attendance is never required, but if you are able, you are strongly encouraged to attend lectures and discussions synchronously to ask questions and to participate in concept-check polls and discussion. You can attend either lecture or discussion section, but if space fills up, priority will be given to students officially enrolled in that section. Note that the schedule of courses also includes a designated Laboratory time for both sections (on Wednesdays) – we will not be utilizing this time for anything this quarter, so you can ignore this Laboratory time and schedule other things during this time. Office Hours . In order to provide you with help on assignments and concepts, the course staff will hold several office hours throughout the week. We are offering both in-person and remote office hours. See the Calendar for the ofifce hours schedule and for details on how to access both types of office hours. Office hours are your chance to ask for general help, clarification on assignments, and to review previous assignments. Our tutors have previously taken the class, done well, and been trained in how to help you. Course staff will not tell you if your answer is correct, and it is inappropriate to ask. Here are some really good questions to ask instead: . | I got confused about a concept in class. Can you explain it? | When the assignment says X, does it mean A or B? | My code is giving a weird error - can you help me understand why? | I can’t get this test to pass, so I must be doing something wrong. Can you help me figure it out? | My code is doing something different than what I expected. Can you explain what is happening? | . Questions that you should never ask a tutor: . | Is this the right answer? | Can you check my code and make sure it is right? | What is the answer? | What’s going to be on the exam? | . Your primary motivation when interacting with course staff should be learning. ",
-    "url": "http://localhost:4000/syllabus/#course-meetings-",
+    "url": "https://dsc10.com/syllabus/#course-meetings-",
     "relUrl": "/syllabus/#course-meetings-"
   },"37": {
     "doc": "Syllabus",
     "title": "Getting Started 🚦",
     "content": "Technology . First and foremost, you will need access to a computer (or tablet with a keyboard) and a stable internet connection to participate in this course. UCSD has a Laptop Loaner program which may be helpful, but you should also contact us if you have any concerns about access to technology. You will not need a webcam for this course. All course content will be linked from this website, but there are a few additional platforms that you’ll need to access: . | Campuswire: We’ll be using Campuswire as our course message and discussion board. More details are in the Communication section below. If you didn’t already get an invitation to our Campuswire course, sign up here (if it asks you to enter a code, enter 1663). | Gradescope: You’ll submit all assignments and exams to Gradescope. This is where all of your grades will live as well. If you didn’t already get an invitation to our Gradescope course, reach out to the instructor. | DataHub: Assignments in this course will involve programming in Python. DataHub (datahub.ucsd.edu) is UCSD’s online data science and machine learning platform, where you will work on assignments. We will show you how to use it in class. | . Make sure you can access all three sites ASAP. It’s a good idea to bookmark them, too (though they’re all linked at the top of this website). You’ll also need a Zoom account to access remote office hours. You should already have an account through UCSD; see the Zoom guide for more help. Note that we will not be using Canvas this quarter. Forms . There are two Google Forms that we’d like to bring your attention to: . | Welcome Survey: required for all students. | Alternate Final Exam Request Form: only if you have a conflicting final exam. See the Exams section for more details. | . ",
-    "url": "http://localhost:4000/syllabus/#getting-started-",
+    "url": "https://dsc10.com/syllabus/#getting-started-",
     "relUrl": "/syllabus/#getting-started-"
   },"38": {
     "doc": "Syllabus",
     "title": "Communication 💬",
     "content": "This quarter, we’ll be using Campuswire as our course message board. If you have a question about anything to do with the course — if you’re stuck on a problem, want clarification on the logistics, or just have a general question about data science — you can make a post on Campuswire. If your post includes any part of your solution to a problem (e.g. code), please make your post private; otherwise, please make your post public so that other students can benefit from the interaction. You can also post anonymously if you prefer. Course staff will regularly check Campuswire and try to answer any questions that you have. You’re also encouraged to answer a question asked by another student if you feel that you know the answer – this is a great way to strengthen your understanding of the material. We will not be using the direct message (DM) functionality on Campuswire; please do not DM any members of course staff. We also ask that you use Campuswire instead of email, as this helps us keep all course-related communication in one place. ",
-    "url": "http://localhost:4000/syllabus/#communication-",
+    "url": "https://dsc10.com/syllabus/#communication-",
     "relUrl": "/syllabus/#communication-"
   },"39": {
     "doc": "Syllabus",
     "title": "Readings 📕",
     "content": "Our readings will come from two free online sources. | DSC 10 Course Notes (“Notes”), a set of notes written specifically for DSC 10, using the babypandas module. | Computational Inferential Thinking (“CIT”), the book used in Berkeley’s version of DSC 10. This book uses slightly different Python commands (it does not use the babypandas module), but the underlying concepts are the same. | . ",
-    "url": "http://localhost:4000/syllabus/#readings-",
+    "url": "https://dsc10.com/syllabus/#readings-",
     "relUrl": "/syllabus/#readings-"
   },"40": {
     "doc": "Syllabus",
     "title": "Assignments 🧪",
     "content": "Lab Assignments . Weekly lab assignments are a required part of the course and will help you develop fluency in Python and working with data. The labs are designed to help you build the skills you need to complete homework assignments and projects, in a low-stress setting. As you complete the lab, you’ll be able to run a sequence of autograder tests, which check to make sure that your answers are correct. If you complete the assignment and all the tests pass, you’ll get a perfect score! . To submit a lab, follow the instructions in the assignment to upload your notebook to Gradescope, which will run automated tests and assign your score. You should verify that all of your test cases pass on Gradescope before the deadline. Lab assignments will be due on Saturdays at 11:59pm. We will release lab assignments roughly a week before they’re due. The lowest lab score is dropped from the grade calculation. Labs must be completed and submitted individually, but we encourage you to discuss high-level approaches with others. See the Collaboration Policy and Academic Integrity section for more details. Homework Assignments . Weekly homework assignments build off of the skills you have developed in labs. Homeworks will reinforce concepts from class, explore new ideas, and provide hands-on experience working with data. An important difference between labs and homeworks lies in the way autograder tests are run. Unlike the tests in the labs, the tests in the homework cannot be used to guarantee that you have the correct answers. The tests in the homework only check to make sure that your answer is reasonable, not that it is correct. For example, if a homework question asks you to calculate a percent, the test in the homework might check that the answer you provide is a number between 0 and 100. You should make sure that all the tests pass before submitting your homework, but this will not guarantee a perfect score. After you submit your homework to Gradescope, and after the deadline for submissions has passed, a new set of hidden tests will be run to make sure that you have the correct answers. In the percent example above, the hidden test might check that your answer equals 56, for example. Your score for the assignment will be based on the results of the hidden tests, which won’t be available immediately after submission. So if you see a perfect score upon submission, this only means that you’ve passed the formatting tests, not the hidden correctness tests that determine your score. To submit a homework, follow the instructions in the assignment to upload your notebook to Gradescope. Check back after the deadline to see your score, based on the hidden correctness tests. Homeworks will be due on Tuesdays at 11:59pm. We will release homework assignments roughly a week before they’re due. The lowest homework score is dropped from the grade calculation. Like labs, homeworks must be completed and submitted individually, but we encourage you to discuss high-level approaches with others. See the Collaboration Policy and Academic Integrity section for more details. Projects . This class has two projects, a midterm project and a final project. Projects are like more challenging homeworks. They are longer than a typical homework, and they require you to pull together ideas from previous weeks, rather than just the last week. Projects also give you a chance to explore a data set in-depth, which can be a lot of fun! . Project tests are like homework tests: the provided tests only check if your answer has the correct format, not if it is correct. You’ll only be able to see your score on the project after the deadline, once all projects are submitted and the hidden correctness tests have been run. Unlike labs and homeworks, you may work with a partner on projects. Your partner can be anyone else in either section of the course. If you choose to work with a partner, you must practice pair programming. This means that you should work on the assignment synchronously, discussing each problem together and writing each answer together, taking turns of who is in control of the coding. Please read the section of this website dedicated to pair programming to learn more about how this works, and some of the benefits of working in pairs. If working with a partner, only one of you should submit the assignment, and you’ll be able to tag your partner in your Gradescope submission. Deadlines and Slip Days . Labs, homeworks, and projects must be submitted by 11:59pm on the due date to be considered on time. You may turn them in as many times as you like before the deadline, and only the most recent submission will be graded, so it’s a good habit to submit early and often. If you make a submission after the deadline, your assignment will be counted as late. You have six “slip days” to use throughout the quarter. A slip day extends the deadline of any one homework, lab, or project by 24 hours. You cannot turn in any assignments more than 48 hours late, meaning that you cannot use more than 2 slip days on any assignment. Slip days are designed to be a transparent and predictable source of leniency in deadlines. You can use a slip day if you are too busy to complete an assignment on its original due date. But slip days are also meant for things like the internet (or the DataHub server) going down at 11:58pm just as you go to submit your homework. Slip days are meant to be used in exceptional circumstances, so you probably should not need to use all six, but if you have something going on in your life that is impeding your ability to do your classwork on time, please reach out to us as soon as possible so we can work something out. Slip days are applied automatically at the end of the quarter, and you don’t need to ask in order to use one. It’s your responsibility to keep track of how many you have left. If you’ve run out of slip days and submit an assignment late, that assignment may still be graded, but you will receive a 0 on it when we calculate grades at the end of the quarter. However, in the event that you use all six days and submit another assignment late, we will allocate your slip days first to the final project and midterm project, then to your homeworks (in chronological order), and then to your labs (in chronological order). This is done to prevent you from receiving a 0 on, say, the final project, if you’ve used up all of your slip days at the end of the quarter; in such an example, you’d instead receive a 0 on an earlier assignment that isn’t weighted as much in your grade. This policy only helps your grade. Submission Errors . It is your responsibility to ensure that your work is submitted correctly to Gradescope as a .ipynb file. Watch 20:05 and onwards of this video to see the two ways of downloading Jupyter notebooks as a .ipynb file. When submitting your work, there are two potential errors to watch out for: . | Submitting your notebook in the wrong format, e.g. submitting as a .json or .txt file instead of a .ipynb file. If you do this, the Gradescope autograder will not be able to grade your work, and you will get a 0. This can almost certainly be avoided by watching the aforementioned video. | Submitting the wrong notebook, e.g. submitting your Lab 6 notebook to the Homework 6 assignment on Gradescope. This will also give you a 0, because the Gradescope autograder for a particular assignment can only grade your work for that assignment. | . To prevent these issues, it is important that you (1) double-check that you are submitting the right notebook in the right format to Gradescope, and (2) let the autograder run on Gradescope until it shows you under “Public Tests” that all public test cases passed. If you happen to make one of the above mistakes and the assignment deadline has passed, you should reach out to a staff member and they will notify the tutor in charge of processing assignment submissions. Since it’s your responsibility to ensure that all assignments are submitted correctly, you will lose a slip day if we have to resubmit for you. ",
-    "url": "http://localhost:4000/syllabus/#assignments-",
+    "url": "https://dsc10.com/syllabus/#assignments-",
     "relUrl": "/syllabus/#assignments-"
   },"41": {
     "doc": "Syllabus",
     "title": "Exams 📝",
     "content": "This class has one midterm exam and one final exam. Exams are cumulative, though the final exam will emphasize material after the midterm. Exams will be in-person individual exams during your scheduled lecture. You must attend the exam corresponding to the section you are officially enrolled in. | Midterm Exam: Friday, April 29, during lecture (50 minutes) | Final Exam: Saturday, June 4, 3-6pm | . Exams must be taken at the scheduled time, with exceptions only if you have two finals scheduled for the same time slot. If you have another final exam at the same time as ours, please fill out this form before Wednesday, April 6. ",
-    "url": "http://localhost:4000/syllabus/#exams-",
+    "url": "https://dsc10.com/syllabus/#exams-",
     "relUrl": "/syllabus/#exams-"
   },"42": {
     "doc": "Syllabus",
     "title": "Weekly Schedule 📆",
     "content": "To summarize all of the events and deadlines, refer to this general weekly schedule (which is subject to change in any given week): . | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | . | Nothing! 😎 | Lecture |   | Lecture |   | Lecture |   | . |   | Discussion |   |   |   |   |   | . |   |   | Homework due |   |   |   | Lab due | . ",
-    "url": "http://localhost:4000/syllabus/#weekly-schedule-",
+    "url": "https://dsc10.com/syllabus/#weekly-schedule-",
     "relUrl": "/syllabus/#weekly-schedule-"
   },"43": {
     "doc": "Syllabus",
     "title": "Grades 💯",
     "content": "The table below shows how your mastery of class material will be assessed and how grades will be computed: . | Component | Weight | Notes | . | Lab Assignments | 15% | drop lowest score | . | Homework Assignments | 35% | drop lowest score | . | Midterm Project | 10% |   | . | Midterm Exam | 10% |   | . | Final Project | 15% |   | . | Final Exam | 15% |   | . Note that each lab and each homework assignment will be worth the same amount, regardless of the number of points it is graded out of. Regrade Requests . If you’d like to request a regrade on any assignment, you must do so within one week of the assignment being graded. If you think there is a problem with the autograder, please fill out the Autograder Regrade Request Form. If you think there is a problem with how your written question was graded, submit a regrade request through Gradescope. Letter Grades and Incompletes . We will use a standard scale for assigning letter grades. If you are taking the course P/NP, you will receive a grade of P if you meet the criteria for a C- grade, otherwise you will receive a grade of NP. If you have extenuating circumstances that prohibit your completion of coursework, you may be eligible for an Incomplete grade. If you are considering using this option, the best thing you can do is let us know right away, and we can help you decide if this is an appropriate course of action. If you have any doubt about your ability to perform satisfactorily in this course due to something outside of your control, please contact us as soon as possible so we can figure out a plan. ",
-    "url": "http://localhost:4000/syllabus/#grades-",
+    "url": "https://dsc10.com/syllabus/#grades-",
     "relUrl": "/syllabus/#grades-"
   },"44": {
     "doc": "Syllabus",
     "title": "Collaboration Policy and Academic Integrity 🤝",
     "content": "The basic rule for DSC 10 is: Work hard. Make use of the expertise of the staff to learn what you need to know to really do well in the course. Act with integrity, and don’t cheat. If you do cheat, we will enforce the UCSD Policy on Integrity of Scholarship. This means you will likely fail the course and the Dean of your college will put you on probation or suspend or dismiss you from UCSD. Students agree that by taking this course, their assignments will be submitted to third party software to help detect plagiarism. Why is academic integrity important? . Academic integrity is an issue that is pertinent to all students on campus. When students act unethically by copying someone’s work, taking an exam for someone else, plagiarizing, etc., these students are misrepresenting their academic abilities. This makes it impossible for instructors to give grades (and for the University to give degrees) that reflect student knowledge. This devalues the worth of a UCSD degree for all students, making it imperative for the the campus as a whole to enforce that all members of this community are honest and ethical. We want your degree to be meaningful and we want you to be proud to call yourself a graduate of UCSD! . The UCSD Policy on Integrity of Scholarship and this syllabus list some of the standards by which you are expected to complete your academic work, but your good ethical judgment (or asking us for advice) is also expected as we cannot list every behavior that is unethical or not in the spirit of academic integrity. Ignorance of the rules will not excuse you from any violations. What counts as cheating? . In DSC 10, you can read books, surf the web, talk to your friends and the DSC 10 staff to get help understanding the concepts you need to know to complete your assignments. However, all code must be written by you (or, in the instance of projects, together with your pair programming partner). The following activities are considered cheating and are not allowed in DSC 10 (not an exhaustive list): . | Using or submitting code acquired from other students (except in the instance of projects, your pair programming partner), the web, or any other resource not officially sanctioned by this course | Posting your code online, including on Campuswire, unless privately to instructors only | Having any other person complete any part of your assignment on your behalf | Completing an assignment on behalf of someone else | Providing code, exam questions, or solutions to any other student in the course | Splitting up project questions with your pair programming partner and each working on different questions | Collaborating with others on exams | . The following activities are examples of appropriate collaboration and are allowed in DSC 10 (not an exhaustive list): . | Discussing the general approach to solving homework problems or projects | Talking about problem-solving strategies or issues you ran into and how you solved them | Discussing the answers to exams with other students who have already taken the exam after the exam is complete | Using code provided in class or in any assigned readings or videos, with attribution | Google searching for documentation on Python or babypandas | Working together with other students on assignments without copying or sharing answers | Posting a question about your approach to a problem on Campuswire, without sharing your code | . How can I be sure that my actions are NOT considered cheating? . The best way to avoid problems is by using your best judgement and remembering to act with Honesty, Trust, Fairness, Respect, Responsibility, and Courage. Here are some suggestions for completing your work: . | Don’t look at or discuss the details of another student’s code for an assignment you are working on, and don’t let another student look at your code. | Don’t start with someone else’s code and make changes to it, or in any way share code with other students. | If you are talking to another student about an assignment, don’t take notes, and wait an hour afterward before you write any code. | . ",
-    "url": "http://localhost:4000/syllabus/#collaboration-policy-and-academic-integrity-",
+    "url": "https://dsc10.com/syllabus/#collaboration-policy-and-academic-integrity-",
     "relUrl": "/syllabus/#collaboration-policy-and-academic-integrity-"
   },"45": {
     "doc": "Syllabus",
     "title": "Support 🤗",
     "content": "Accomodations . From the Office for Students with Disabilities (OSD): . OSD works with students with documented disabilities to review documentation and determine reasonable accommodations. Disabilities can occur in these areas: psychological, psychiatric, learning, attention, chronic health, physical, vision, hearing, and acquired brain injuries, and may occur at any time during a student’s college career. We encourage you to contact the OSD as soon as you become aware of a condition that is disabling so that we can work with you. If you already have accommodations via OSD, make sure that we receive your Authorization for Accommodation (AFA) letter at the start of the quarter so that we can make arrangements for accommodations. The Data Science OSD Liaison can be reached at dscstudent@ucsd.edu. Diversity and Inclusion . We are committed to an inclusive learning environment that respects our diversity of perspectives, experiences, and identities. Our goal is to create a diverse and inclusive learning environment where all students feel comfortable and can thrive. If you have any suggestions as to how we could create a more inclusive setting, please let us know. We also expect that you, as a student in this course, will honor and respect your classmates, abiding by the UCSD Principles of Community. Please understand that others’ backgrounds, perspectives and experiences may be different than your own, and help us to build an environment where everyone is respected and feels comfortable. ",
-    "url": "http://localhost:4000/syllabus/#support-",
+    "url": "https://dsc10.com/syllabus/#support-",
     "relUrl": "/syllabus/#support-"
   },"46": {
     "doc": "Syllabus",
     "title": "Waitlist FAQs 🙋",
     "content": "I am on the waitlist, so how can I keep up with the course? . You can (and should) still submit assignments if you are on the waitlist. Waitlisted students should have access to Datahub to work on assignments. You may need to add yourself to some course tools; see the Getting Started section of the syllabus. What are my chances of getting off the waitlist? . The instructional staff is not equipped to answer this question. Many questions about enrollment are answered here. Please direct your questions about enrollment to DSC advising. You can send an email to dscstudent@ucsd.edu, send a message through the Virtual Advising Center, or stop by drop-in advising hours. In short, seats in the class open up when students drop the class, which can be hard to predict. I have been added to Gradescope, Campuswire, and other course tools. Does this mean I am off the waitlist? . No. Students on the waitlist were also added to all course tools, so they can complete assignments while they are on the waitlist. Check Webreg if you are not sure of your enrollment status. ",
-    "url": "http://localhost:4000/syllabus/#waitlist-faqs-",
+    "url": "https://dsc10.com/syllabus/#waitlist-faqs-",
     "relUrl": "/syllabus/#waitlist-faqs-"
   },"47": {
     "doc": "Syllabus",
     "title": "Acknowledgements 🙏",
     "content": "This offering builds off of earlier offerings of DSC 10 by Janine Tiefenbruck, Suraj Rampure, Justin Eldrige, Mikio Aoi, Colin Jemmott, Robert Twomey, Aaron Fraenkel, and Marina Langlois. ",
-    "url": "http://localhost:4000/syllabus/#acknowledgements-",
+    "url": "https://dsc10.com/syllabus/#acknowledgements-",
     "relUrl": "/syllabus/#acknowledgements-"
   },"48": {
     "doc": "Syllabus",
     "title": "Syllabus",
     "content": " ",
-    "url": "http://localhost:4000/syllabus/",
+    "url": "https://dsc10.com/syllabus/",
     "relUrl": "/syllabus/"
   }
 }
