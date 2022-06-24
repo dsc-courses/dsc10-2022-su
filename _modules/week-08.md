@@ -1,29 +1,28 @@
 ---
-    title: Week 8 – Normal Curve, Central Limit Theorem 
+    title: Week 8
     weekNumber: 8
     days:
-      - date: 2022-5-16
+      - date: 2022-08-15
         events:
-          "**LEC 21**{: .label .label-lecture } [Normal Curve](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-sp&subPath=lectures/lec21/lecture21.ipynb)":
-            "[CIT 14.3-14.4](https://inferentialthinking.com/chapters/14/3/SD_and_the_Normal_Curve.html)"
-          "**DIS 7**{: .label .label-disc } [Bootstrap, Confidence Intervals](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-sp&subPath=discussions/07-bootstrap_confidence_int/07-discussion.ipynb) ":
-
-      - date: 2022-5-17
-        events:
-          "**HW 6**{: .label .label-hw } [**Permutation Testing, Percentiles, and Bootstrapping (due 11:59pm)**](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-sp&subPath=homeworks/06-bootstrap/homework6.ipynb)":
+          "**LEC 20**{: .label .label-lecture } Confidence Intervals, Center and Spread":
+            "[CIT 14.1-14.2](https://inferentialthinking.com/chapters/14/Why_the_Mean_Matters.html)"
                 
-      - date: 2022-5-18
+      - date: 2022-08-16
         events:
-          "**LEC 22**{: .label .label-lecture } [Central Limit Theorem](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-sp&subPath=lectures/lec22/lecture22.ipynb)  [🎥 Watch Recording](https://youtu.be/vLS30bpEe2Y)":
+          
+          "**HW 6**{: .label .label-hw } **Permutation Testing, Percentiles, and Bootstrapping**":
+      - date: 2022-08-17
+        events:
+          "**LEC 21**{: .label .label-lecture } Normal Curve":
+            "[CIT 14.3-14.4](https://inferentialthinking.com/chapters/14/3/SD_and_the_Normal_Curve.html)"
+                
+      - date: 2022-08-19
+        events:
+          "**LEC 22**{: .label .label-lecture } Central Limit Theorem":
             "[CIT 14.4-14.5](https://inferentialthinking.com/chapters/14/4/Central_Limit_Theorem.html)"
-
-      - date: 2022-5-20
+                
+      - date: 2022-08-20
         events:
-          "**LEC 23**{: .label .label-lecture } [Experiment Design](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-sp&subPath=lectures/lec23/lecture23.ipynb)":
-            "[CIT 14.6](https://inferentialthinking.com/chapters/14/6/Choosing_a_Sample_Size.html)"
-      
-      - date: 2022-5-21
-        events:
-          "**Lab 7**{: .label .label-lab } [**Center, Spread, and the Normal Distribution (due 11:59pm)**](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-sp&subPath=labs/07-su_normal_clt/lab7.ipynb)":
-
+          
+          "**Lab 7**{: .label .label-lab } **Center, Spread, and the Normal Distribution**":
 ---
