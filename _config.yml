@@ -31,17 +31,17 @@ aux_links:
   Course Notes:
     - 'https://notes.dsc10.com/'
   Campuswire:
-    - ''
+    - 'https://campuswire.com/p/G976883B0'
   DataHub:
     - 'https://datahub.ucsd.edu'
   Gradescope:
-    - ''
+    - 'https://www.gradescope.com/courses/406075'
 footer_content:
 
 # Collections for website data
 collections:
   staffers:
-  staffersnobio:  
+  staffersnobio:
   modules:
   schedules:
   announcements:
