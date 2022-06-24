@@ -12,4 +12,4 @@ publish: ## Publishes website changes
 	jekyll build
 	git add -A
 	git commit -m "deploy website $(TODAY)" --allow-empty
-	git push origin main
+	git push origin gh-pages
