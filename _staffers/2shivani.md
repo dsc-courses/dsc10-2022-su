@@ -4,7 +4,7 @@ role: Staff
 type: TA
 pronouns: she/her
 email: s9bhakta@ucsd.edu
-photo: assets/images/missing.jpg
+photo: assets/images/shivani.jpg
 ---
 
 Hi all! I am a second-year master's student in the ECE department with a focus

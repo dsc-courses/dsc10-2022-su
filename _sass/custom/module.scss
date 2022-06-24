@@ -2,10 +2,10 @@
   @extend .card;
 
   .module-days {
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: minmax(100px, 1fr) 4fr;
 
     @include mq(lg) {
-      grid-template-columns: 1fr 7fr;
+      grid-template-columns: minmax(150px, 1fr) 7fr;
     }
   }
 }
@@ -64,6 +64,10 @@
       +p {
         width: auto;
       }
+    }
+
+    a {
+      white-space: normal;
     }
   }
 
