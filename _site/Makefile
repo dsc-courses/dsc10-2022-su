@@ -1,5 +1,7 @@
 .PHONY: help build serve
 
+JEKYLL = /Users/sam/.rvm/gems/ruby-3.0.0@dsc10-website/bin/jekyll
+
 TODAY := $(shell date -I date)
 
 help:
@@ -9,7 +11,7 @@ serve: ## Serves website locally
 	jekyll serve
 
 publish: ## Publishes website changes
-	jekyll build
+	$(JEKYLL) build
 	git add -A
 	git commit -m "deploy website $(TODAY)" --allow-empty
 	git push origin gh-pages
