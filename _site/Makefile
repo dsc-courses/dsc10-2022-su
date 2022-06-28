@@ -2,7 +2,7 @@
 
 JEKYLL = /Users/sam/.rvm/gems/ruby-3.0.0@dsc10-website/bin/jekyll
 
-TODAY := $(shell date -I date)
+TODAY := $(shell date +"%m-%d")
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
