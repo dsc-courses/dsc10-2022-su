@@ -9,7 +9,7 @@
 
       - date: 2022-06-29
         events:
-          "**LEC 2**{: .label .label-lecture } Association and Causality":
+          "**LEC 2**{: .label .label-lecture } [Association and Causality](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec02/lec02.ipynb)":
             "[CIT 2](https://inferentialthinking.com/chapters/02/causality-and-experiments.html)"
 
       - date: 2022-07-01
