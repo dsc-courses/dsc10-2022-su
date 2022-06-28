@@ -1,13 +1,14 @@
 test = {   'name': 'q3_2_2',
     'points': None,
     'suites': [   {   'cases': [   {   'code': ">>> seconds_in_a_decade != 60 * 60 * 24 * 10 * 365 # Close! It looks like you didn't account for leap years. See: "
-                                               'https://en.wikipedia.org/wiki/Leap_year\n',
+                                               'https://en.wikipedia.org/wiki/Leap_year\n'
+                                               'True',
                                        'hidden': False,
                                        'locked': False},
-                                   {   'code': ">>> seconds_in_a_decade != 315532800 # Close! It looks like you didn't account for leap seconds. See: https://en.wikipedia.org/wiki/Leap_second\n",
+                                   {   'code': ">>> seconds_in_a_decade != 315532800 # Close! It looks like you didn't account for leap seconds. See: https://en.wikipedia.org/wiki/Leap_second\nTrue",
                                        'hidden': False,
                                        'locked': False},
-                                   {   'code': ">>> seconds_in_a_decade == 315532803 # Bingo! If you're seeing this, don't just copy the right answer – work it out as an expression.\n",
+                                   {   'code': ">>> seconds_in_a_decade == 315532803 # Bingo! If you're seeing this, don't just copy the right answer – work it out as an expression.\nTrue",
                                        'hidden': False,
                                        'locked': False}],
                       'scored': True,
