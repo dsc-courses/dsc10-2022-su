@@ -9,7 +9,7 @@
       - date: 2022-07-05
         events:
 
-          "**HW 1**{: .label .label-hw } [Causality and Basic Python](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=homeworks/hw1/hw1.ipynb)":
+          "**HW 1**{: .label .label-hw } **Causality and Basic Python**":
       - date: 2022-07-06
         events:
           "**LEC 4**{: .label .label-lecture } Arrays and DataFrames":
