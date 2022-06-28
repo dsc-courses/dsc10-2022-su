@@ -4,7 +4,7 @@
     days:
       - date: 2022-06-27
         events:
-          "**LEC 1**{: .label .label-lecture } [Introduction](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec01/lec01.ipynb)":
+          "**LEC 1**{: .label .label-lecture } [Introduction](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec01/lec01.ipynb) [🎥](https://www.youtube.com/watch?v=LmqHG1nwGHc&list=PLPHXc20GewP9V3VSzpT3Ck9De8NI-uv3k&index=1)":
             "[CIT 1.2-1.3](https://inferentialthinking.com/chapters/01/2/why-data-science.html)"
 
       - date: 2022-06-29
