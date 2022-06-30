@@ -11,7 +11,7 @@ serve: ## Serves website locally
 	jekyll serve
 
 publish: ## Publishes website changes
-	$(JEKYLL) build
 	git add -A
 	git commit -m "deploy website $(TODAY)" --allow-empty
+	git pull origin gh-pages
 	git push origin gh-pages

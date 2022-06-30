@@ -15,7 +15,7 @@ Please start by reading this website, especially the [syllabus](../syllabus) and
 
 {{ site.staffersnobio }}
 
-[Zoom Link for Remote Office Hours](https://ucsd.zoom.us/j/95505970197?pwd=ak1JNWFvZi8vajV0OHRaVW5EcFpYUT09){: .btn .btn-blue } [Podcast Recordings](https://podcast.ucsd.edu/default.aspx){: .btn .btn-green }
+[Zoom Link for Remote Office Hours](https://ucsd.zoom.us/j/95505970197?pwd=ak1JNWFvZi8vajV0OHRaVW5EcFpYUT09){: .btn .btn-blue } [Podcast Recordings](https://podcast.ucsd.edu/watch/s322/dsc10_a00){: .btn .btn-green }
 
 {% for module in site.modules %}
 {{ module }}

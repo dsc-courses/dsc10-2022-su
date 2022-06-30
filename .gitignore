@@ -2,6 +2,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,macos
 
+# ignore local jekyll build
+_site/
+
 ### macOS ###
 # General
 .DS_Store
@@ -9,7 +12,8 @@
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
