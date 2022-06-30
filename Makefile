@@ -8,4 +8,5 @@ help:
 publish: ## Publishes changes
 	git add -A
 	git commit -m "deploy public files $(TODAY)" --allow-empty
+	git pull origin main
 	git push origin main
