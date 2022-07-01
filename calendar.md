@@ -14,7 +14,7 @@ entrance on Hopkins Drive, take the elevator up to the second floor, turn left
 at the kitchen, and meet in the common area. You may need a code to access
 SDSC---[see Campuswire][campuswire].
 
-[campuswire]: [campuswire]: {{ site.aux_links.Campuswire }}
+[campuswire]: https://campuswire.com/c/G976883B0/feed/13
 
 To join remote office hours (<span style="color:orange">shown in
 orange</span>), click the button below.
