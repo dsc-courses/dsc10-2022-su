@@ -25,5 +25,5 @@
       - date: 2022-07-16
         events:
 
-          "**HW 2**{: .label .label-hw } [Arrays and DataFrames] (http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=homeworks/hw2/hw2.ipynb)":
+          "**HW 2**{: .label .label-hw } [Arrays and DataFrames](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=homeworks/hw2/hw2.ipynb) ":
 ---
