@@ -14,7 +14,7 @@
 
       - date: 2022-07-01
         events:
-          "**LEC 3**{: .label .label-lecture } [Expressions and Data Types](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec03/lec03-live.ipynb)":
+          "**LEC 3**{: .label .label-lecture } [Expressions and Data Types](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec03/lec03.ipynb)":
             "[Notes 1-6](https://notes.dsc10.com/01-getting_started/tools.html)"
 
       - date: 2022-07-02
