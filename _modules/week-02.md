@@ -19,9 +19,4 @@
         events:
           "**LEC 5**{: .label .label-lecture } [DataFrames: Accessing, Sorting, and Querying](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec05/lec05-live.ipynb)":
             "[Notes 9-10](https://notes.dsc10.com/02-data_sets/accessing.html)"
-
-      - date: 2022-07-09
-        events:
-
-          "**Lab 2**{: .label .label-lab } [Arrays and DataFrames](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=labs/lab2/lab2.ipynb) ":
 ---

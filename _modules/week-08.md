@@ -6,23 +6,25 @@
         events:
           "**LEC 20**{: .label .label-lecture } Confidence Intervals, Center and Spread":
             "[CIT 14.1-14.2](https://inferentialthinking.com/chapters/14/Why_the_Mean_Matters.html)"
-                
+
       - date: 2022-08-16
         events:
-          
-          "**HW 6**{: .label .label-hw } **Permutation Testing, Percentiles, and Bootstrapping**":
+
+          "**Lab 6**{: .label .label-lab } **Resampling and the Bootstrap**":
+
       - date: 2022-08-17
         events:
           "**LEC 21**{: .label .label-lecture } Normal Curve":
             "[CIT 14.3-14.4](https://inferentialthinking.com/chapters/14/3/SD_and_the_Normal_Curve.html)"
-                
+
       - date: 2022-08-19
         events:
           "**LEC 22**{: .label .label-lecture } Central Limit Theorem":
             "[CIT 14.4-14.5](https://inferentialthinking.com/chapters/14/4/Central_Limit_Theorem.html)"
-                
+
       - date: 2022-08-20
         events:
-          
-          "**Lab 7**{: .label .label-lab } **Center, Spread, and the Normal Distribution**":
+
+          "**HW 6**{: .label .label-hw } **Permutation Testing, Percentiles, and Bootstrapping**":
+
 ---
