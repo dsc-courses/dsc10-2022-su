@@ -1,0 +1,10 @@
+test = {   'name': 'q1_3',
+    'points': None,
+    'suites': [   {   'cases': [   {'code': '>>> isinstance(by_comma, str) and isinstance(by_space, str)\nTrue', 'hidden': False, 'locked': False},
+                                   {   'code': '>>> len(by_comma) == 39 # You have the wrong length for comma_separated. Make sure comma_separated appears EXACTLY as described.\nTrue',
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
