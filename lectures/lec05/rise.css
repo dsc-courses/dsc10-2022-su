@@ -14,10 +14,11 @@ copy this file as rise.css adjacent to a lecture notebook to auto-include
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
-/* take off row borders */
+/* make table styles more similar to pandas */
 .reveal table th,
 .reveal table td {
   border: none;
+  padding: 0.5em;
 }
 
 .rise-enabled .reveal pre {
