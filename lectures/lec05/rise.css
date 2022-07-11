@@ -30,7 +30,14 @@ RISE sets table font-size to 75%, but this makes pandas tutor tables super
 small
 */
 table.wstRoot {
-  font-size: 10pt !important;
+  font-size: 14pt !important;
+}
+
+.wstRoot td.rowLabel,
+.wstRoot td.rowLabelLevelName,
+.wstRoot .columnLabel,
+.wstRoot .columnLabelLevelName {
+  font-size: 12pt !important;
 }
 
 /* using .menti in a cell lets us put the menti code side by side */
