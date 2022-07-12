@@ -4,7 +4,7 @@
     days:
       - date: 2022-07-11
         events:
-          "**LEC 6**{: .label .label-lecture } [More Queries and GroupBy](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec06/lec06-live.ipynb)":
+          "**LEC 6**{: .label .label-lecture } [More Queries and GroupBy](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec06/lec06.ipynb)":
             "[Notes 10-11](https://notes.dsc10.com/02-data_sets/querying.html)"
 
       - date: 2022-07-12
