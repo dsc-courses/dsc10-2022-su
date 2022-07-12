@@ -14,7 +14,7 @@
 
       - date: 2022-07-13
         events:
-          "**LEC 7**{: .label .label-lecture } Data Visualization":
+          "**LEC 7**{: .label .label-lecture } [Data Visualization](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec07/lec07-live.ipynb)":
             "[Notes 14-17](https://notes.dsc10.com/03-visualization/intro.html)"
 
       - date: 2022-07-15
