@@ -10,7 +10,7 @@
       - date: 2022-07-19
         events:
 
-          "**Lab 3**{: .label .label-lab } [Data Visualization and Python Functions] (http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=labs/lab3/lab3.ipynb) ":
+          "**Lab 3**{: .label .label-lab } [Data Visualization and Python Functions](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=labs/lab3/lab3.ipynb)":
 
       - date: 2022-07-20
         events:
