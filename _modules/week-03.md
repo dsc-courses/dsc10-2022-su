@@ -14,12 +14,12 @@
 
       - date: 2022-07-13
         events:
-          "**LEC 7**{: .label .label-lecture } [Data Visualization](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec07/lec07-live.ipynb)":
+          "**LEC 7**{: .label .label-lecture } [Data Visualization](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec07/lec07.ipynb)":
             "[Notes 14-17](https://notes.dsc10.com/03-visualization/intro.html)"
 
       - date: 2022-07-15
         events:
-          "**LEC 8**{: .label .label-lecture } [Histograms and Overlaid Plots](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec08/lec08-live.ipynb)":
+          "**LEC 8**{: .label .label-lecture } [Histograms and Overlaid Plots](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec08/lec08.ipynb)":
             "[Notes 14-17](https://notes.dsc10.com/03-visualization/intro.html)"
 
       - date: 2022-07-16
