@@ -14,7 +14,7 @@
 
       - date: 2022-07-20
         events:
-          "**LEC 10**{: .label .label-lecture } Grouping with Subgroups, Merge":
+          "**LEC 10**{: .label .label-lecture } [Grouping with Subgroups, Merge](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec10/lec10-live.ipynb)":
             "[Note 11.4](https://notes.dsc10.com/02-data_sets/groupby.html#subgroups), [13](https://notes.dsc10.com/02-data_sets/merging.html)"
 
       - date: 2022-07-22

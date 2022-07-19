@@ -10,7 +10,7 @@
       - date: 2022-07-26
         events:
 
-          "**Lab 4**{: .label .label-lab } **DataFrames, Control Flow, and Probabilit**":
+          "**Lab 4**{: .label .label-lab } **DataFrames, Control Flow, and Probability**":
       - date: 2022-07-27
         events:
           "**LEC 13**{: .label .label-lecture } Simulation":
