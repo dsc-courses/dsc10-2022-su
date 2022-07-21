@@ -19,7 +19,7 @@
 
       - date: 2022-07-22
         events:
-          "**LEC 11**{: .label .label-lecture } Booleans and Conditionals, Iteration":
+          "**LEC 11**{: .label .label-lecture } [Booleans and Conditionals, Iteration](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec11/lec11-live.ipynb)":
             "[CIT 9.1-9.2](https://inferentialthinking.com/chapters/09/Randomness.html)"
 
       - date: 2022-07-23
