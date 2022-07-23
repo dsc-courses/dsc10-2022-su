@@ -1,0 +1,10 @@
+test = {   'name': 'q8_1',
+    'points': 2,
+    'suites': [   {   'cases': [   {'code': ">>> popular_vote.shape == (51,5) and 'popParty' in popular_vote.columns\nTrue", 'hidden': False, 'locked': False},
+                                   {   'code': '>>> set(np.unique(popular_vote.get(\'popParty\')))==set(["Democratic", "Republican"]) # check spelling and capitalization\nTrue',
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

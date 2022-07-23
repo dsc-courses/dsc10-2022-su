@@ -1,0 +1,12 @@
+test = {   'name': 'q8_2',
+    'points': 2,
+    'suites': [   {   'cases': [   {   'code': ">>> covid_politics.shape == (50,4) and set(covid_politics.columns)==set(['state', 'endPositiveRate', 'govParty', 'popParty'])\nTrue",
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': '>>> "South Dakota" in covid_politics.get(\'state\').values # Make sure to use full state names, not abbreviations\nTrue',
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
