@@ -20,6 +20,6 @@
       - date: 2022-08-06
         events:
 
-          "**PROJ**{: .label .label-proj } **Midterm Project**":
+          "**PROJ**{: .label .label-proj } [Midterm Project](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=projects/midterm_project/MidtermProject.ipynb)":
 
 ---
