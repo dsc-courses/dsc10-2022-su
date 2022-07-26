@@ -4,7 +4,7 @@
     days:
       - date: 2022-07-25
         events:
-          "**LEC 12**{: .label .label-lecture } [Probability](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec12/lec12-live.ipynb) ([blank pdf](https://github.com/dsc-courses/dsc10-2022-su/raw/main/lectures/lec12/lec12-live.pdf))":
+          "**LEC 12**{: .label .label-lecture } [Probability](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec12/lec12-live.ipynb) ([blank pdf](https://github.com/dsc-courses/dsc10-2022-su/raw/main/lectures/lec12/lec12-live.pdf)) ([annotated pdf](https://github.com/dsc-courses/dsc10-2022-su/raw/main/lectures/lec12/lec12-live-annotated.pdf))":
             "[Note 18](https://notes.dsc10.com/04-probability_and_simulation/probability_and_simulation.html)"
 
       - date: 2022-07-26
