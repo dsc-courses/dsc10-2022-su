@@ -13,7 +13,7 @@
           "**Lab 4**{: .label .label-lab } [DataFrames, Control Flow, and Probability](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=labs/lab4/lab4.ipynb)":
       - date: 2022-07-27
         events:
-          "**LEC 13**{: .label .label-lecture } [Simulation](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec13/lec13-live.ipynb)":
+          "**LEC 13**{: .label .label-lecture } [Simulation](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec13/lec13.ipynb)":
             "[Note 18](https://notes.dsc10.com/04-probability_and_simulation/probability_and_simulation.html)"
 
       - date: 2022-07-29
