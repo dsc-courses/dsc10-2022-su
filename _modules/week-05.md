@@ -19,7 +19,7 @@
       - date: 2022-07-29
         events:
 
-          "**Exam**{: .label .label-exam } **Midterm Exam**":
+          "**Exam**{: .label .label-exam } **Midterm Exam** ([handout](https://dsc10.com/resources/exams/su22/midterm_handout.pdf)) ([blank](https://dsc10.com/resources/exams/su22/midterm.pdf)) ([sol](https://dsc10.com/resources/exams/su22/midterm_sol.pdf))":
 
       - date: 2022-07-30
         events:
