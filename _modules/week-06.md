@@ -9,7 +9,7 @@
 
       - date: 2022-08-03
         events:
-          "**LEC 15**{: .label .label-lecture } [Hypothesis Testing](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec15/lec15-live.ipynb)":
+          "**LEC 15**{: .label .label-lecture } [Hypothesis Testing](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec15/lec15.ipynb)":
             "[Note 21](https://notes.dsc10.com/05-hypothesis_testing/1_hypothesis_tests.html)"
 
       - date: 2022-08-05
