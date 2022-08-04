@@ -14,7 +14,7 @@
 
       - date: 2022-08-05
         events:
-          "**LEC 16**{: .label .label-lecture } Hypothesis Testing, Continued":
+          "**LEC 16**{: .label .label-lecture } Hypothesis Testing, Continued [blank](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec16/lec16-live.ipynb)":
             "[Note 21](https://notes.dsc10.com/05-hypothesis_testing/1_hypothesis_tests.html)"
 
       - date: 2022-08-06
