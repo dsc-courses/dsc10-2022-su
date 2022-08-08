@@ -4,7 +4,7 @@
     days:
       - date: 2022-08-08
         events:
-          "**LEC 17**{: .label .label-lecture } Permutation Testing [(blank)](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec17/lec17-live.ipynb":
+          "**LEC 17**{: .label .label-lecture } Permutation Testing [(blank)](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec17/lec17-live.ipynb)":
             "[Note 22](https://notes.dsc10.com/05-hypothesis_testing/2_permutation_tests.html)"
 
       - date: 2022-08-09
