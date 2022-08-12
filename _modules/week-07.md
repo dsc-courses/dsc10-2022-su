@@ -19,7 +19,7 @@
 
       - date: 2022-08-12
         events:
-          "**LEC 19**{: .label .label-lecture } Percentiles and Confidence Intervals [(blank)](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec19/lec19-live.ipynb)":
+          "**LEC 19**{: .label .label-lecture } Bootstrap, Percentiles, and Confidence Intervals [(blank)](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec19/lec19-live.ipynb)":
             "[Notes 24-25](https://notes.dsc10.com/06-estimation/2_confidence_intervals.html)"
 
       - date: 2022-08-13
