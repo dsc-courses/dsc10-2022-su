@@ -4,7 +4,7 @@
     days:
       - date: 2022-08-15
         events:
-          "**LEC 20**{: .label .label-lecture } Confidence Intervals, Center and Spread":
+          "**LEC 20**{: .label .label-lecture } Confidence Intervals, Center and Spread [(blank)](http://localhost:8888/notebooks/dsc10-2022-su-public/lectures/lec20/lec20-live.ipynb)":
             "[CIT 14.1-14.2](https://inferentialthinking.com/chapters/14/Why_the_Mean_Matters.html)"
 
       - date: 2022-08-16
