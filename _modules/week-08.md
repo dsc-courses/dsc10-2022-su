@@ -25,6 +25,6 @@
       - date: 2022-08-20
         events:
 
-          "**HW 6**{: .label .label-hw } **Permutation Testing, Percentiles, and Bootstrapping**":
+          "**HW 6**{: .label .label-hw } [Permutation Testing, Percentiles, and Bootstrapping](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=homeworks/hw6/hw6.ipynb)":
 
 ---
