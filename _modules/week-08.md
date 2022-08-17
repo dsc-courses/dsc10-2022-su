@@ -14,7 +14,7 @@
 
       - date: 2022-08-17
         events:
-          "**LEC 21**{: .label .label-lecture } Normal Curve":
+          "**LEC 21**{: .label .label-lecture } Normal Curve [(blank)](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec21/lec21-live.ipynb)":
             "[CIT 14.3-14.4](https://inferentialthinking.com/chapters/14/3/SD_and_the_Normal_Curve.html)"
 
       - date: 2022-08-19
