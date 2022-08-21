@@ -24,5 +24,5 @@
       - date: 2022-08-27
         events:
 
-          "**HW 7**{: .label .label-hw } **Confidence Intervals, Normal Distributions, and the CLT**":
+          "**HW 7**{: .label .label-hw } [Confidence Intervals, Normal Distributions, and the CLT](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=homeworks/hw7/hw7.ipynb)":
 ---
