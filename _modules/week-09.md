@@ -4,7 +4,7 @@
     days:
       - date: 2022-08-22
         events:
-          "**LEC 23**{: .label .label-lecture } Experiment Design [(blank)](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec23/lec23-live.ipynb)":
+          "**LEC 23**{: .label .label-lecture } Experiment Design [(blank)](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec23/lec23-live.ipynb) [(complete)](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec23/lec23.ipynb)":
             "[CIT 14.6](https://inferentialthinking.com/chapters/14/6/Choosing_a_Sample_Size.html)"
 
       - date: 2022-08-23
