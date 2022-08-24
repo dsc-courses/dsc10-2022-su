@@ -13,7 +13,7 @@
           "**Lab 7**{: .label .label-lab } [Center, Spread, and the Normal Distribution](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=labs/lab7/lab7.ipynb)":
       - date: 2022-08-24
         events:
-          "**LEC 24**{: .label .label-lecture } Prediction and Correlation [(blank)](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec24/lec24-live.ipynb)":
+          "**LEC 24**{: .label .label-lecture } Prediction and Correlation [(blank)](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec24/lec24-live.ipynb) [(complete)](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec24/lec24.ipynb)":
             "[CIT 15.1-15.2](https://inferentialthinking.com/chapters/15/Prediction.html)"
 
       - date: 2022-08-26
