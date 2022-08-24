@@ -8,7 +8,7 @@
 
       - date: 2022-08-30
         events:
-          "**Lab 8**{: .label .label-lab } **Regression**":
+          "**Lab 8**{: .label .label-lab } [Regression](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=labs/lab8/lab8.ipynb)":
 
       - date: 2022-08-31
         events:
