@@ -18,7 +18,7 @@
 
       - date: 2022-08-26
         events:
-          "**LEC 25**{: .label .label-lecture } Regression and Least Squares [(blank)](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec25/lec25-live.ipynb)":
+          "**LEC 25**{: .label .label-lecture } Regression and Least Squares [(blank)](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec25/lec25-live.ipynb) [(complete)](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec25/lec25.ipynb)":
             "[CIT 15.2-15.3](https://inferentialthinking.com/chapters/15/2/Regression_Line.html)"
 
       - date: 2022-08-27

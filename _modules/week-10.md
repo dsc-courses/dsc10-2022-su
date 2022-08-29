@@ -4,7 +4,7 @@
     days:
       - date: 2022-08-29
         events:
-          "**LEC 26**{: .label .label-lecture } Residuals and Inference":
+          "**LEC 26**{: .label .label-lecture } Residuals and Inference [(blank)](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec26/lec26-live.ipynb)":
 
       - date: 2022-08-30
         events:
