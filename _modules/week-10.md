@@ -12,7 +12,7 @@
 
       - date: 2022-08-31
         events:
-          "**LEC 27**{: .label .label-lecture } Review":
+          "**LEC 27**{: .label .label-lecture } Review [(blank)](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec27/lec27-live.ipynb)":
           "**PROJ**{: .label .label-proj } [Final Project](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=projects/final_project/FinalProject.ipynb)":
 
       - date: 2022-09-02
