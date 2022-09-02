@@ -17,7 +17,7 @@
 
       - date: 2022-09-02
         events:
-          "**LEC 28**{: .label .label-lecture } Review, Conclusion":
+          "**LEC 28**{: .label .label-lecture } Review, Conclusion [(complete)](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec28/lec28.ipynb)":
       - date: 2022-09-03
         events:
 
