@@ -10,7 +10,7 @@
       - date: 2022-07-26
         events:
 
-          "**Lab 4**{: .label .label-lab } [DataFrames, Control Flow, and Probability](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=labs/lab4/lab4.ipynb)":
+          "**Lab 4**{: .label .label-lab } DataFrames, Control Flow, and Probability":
       - date: 2022-07-27
         events:
           "**LEC 13**{: .label .label-lecture } [Simulation](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec13/lec13.ipynb)":
@@ -19,10 +19,10 @@
       - date: 2022-07-29
         events:
 
-          "**Exam**{: .label .label-exam } **Midterm Exam** ([handout](https://dsc10.com/resources/exams/su22/midterm_handout.pdf)) ([blank](https://dsc10.com/resources/exams/su22/midterm.pdf)) ([sol](https://dsc10.com/resources/exams/su22/midterm_sol.pdf))":
+          "**Exam**{: .label .label-exam } **Midterm Exam** ([handout](https://dsc-courses.github.io/dsc10-2022-su/resources/exams/su22/midterm_handout.pdf)) ([blank](https://dsc-courses.github.io/dsc10-2022-su/resources/exams/su22/midterm.pdf)) ([sol](https://dsc-courses.github.io/dsc10-2022-su/resources/exams/su22/midterm_sol.pdf))":
 
       - date: 2022-07-30
         events:
 
-          "**HW 4**{: .label .label-hw } [DataFrames, Control Flow, and Probability](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=homeworks/hw4/hw4.ipynb)":
+          "**HW 4**{: .label .label-hw } DataFrames, Control Flow, and Probability":
 ---

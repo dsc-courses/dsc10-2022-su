@@ -8,12 +8,12 @@
 
       - date: 2022-08-30
         events:
-          "**Lab 8**{: .label .label-lab } [Regression](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=labs/lab8/lab8.ipynb)":
+          "**Lab 8**{: .label .label-lab } Regression":
 
       - date: 2022-08-31
         events:
           "**LEC 27**{: .label .label-lecture } Review [(blank)](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=lectures/lec27/lec27-live.ipynb)":
-          "**PROJ**{: .label .label-proj } [Final Project](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=projects/final_project/FinalProject.ipynb)":
+          "**PROJ**{: .label .label-proj } Final Project":
 
       - date: 2022-09-02
         events:

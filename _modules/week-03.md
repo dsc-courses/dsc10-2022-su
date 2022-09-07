@@ -10,7 +10,7 @@
       - date: 2022-07-12
         events:
 
-          "**Lab 2**{: .label .label-lab } [Arrays and DataFrames](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=labs/lab2/lab2.ipynb) ":
+          "**Lab 2**{: .label .label-lab } Arrays and DataFrames":
 
       - date: 2022-07-13
         events:
@@ -25,5 +25,5 @@
       - date: 2022-07-16
         events:
 
-          "**HW 2**{: .label .label-hw } [Arrays and DataFrames](http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2022-su&subPath=homeworks/hw2/hw2.ipynb) ":
+          "**HW 2**{: .label .label-hw } Arrays and DataFrames":
 ---
